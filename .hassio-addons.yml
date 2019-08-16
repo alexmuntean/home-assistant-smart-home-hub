@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  rolls:
+    repository: home-assistant-smart-home-hub/rolls
+    target: rolls
+    image: repo/smart-home-hub-addon
