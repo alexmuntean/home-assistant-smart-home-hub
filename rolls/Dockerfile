@@ -7,7 +7,7 @@ ENV LANG C.UTF-8
 RUN apk add --no-cache jq
 
 # Copy data for add-on
-COPY smart-home-hub-1.0.jar /
-RUN chmod a+x /smart-home-hub-1.0.jar
+COPY smart-home-hub-1.0.jar ~/
+RUN chmod a+x ~/smart-home-hub-1.0.jar
 
-CMD [ "java", "-jar", "smart-home-hub-1.0.jar" ]
+CMD [ "java", "-jar", "~/smart-home-hub-1.0.jar" ]
