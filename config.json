@@ -1,0 +1,17 @@
+{
+  "name": "smart-home-hub",
+  "version": "1.0",
+  "slug": "smart-home-hub",
+  "description": "Custom plugin to control my rolls via broadlink",
+  "arch": ["amd64"],
+  "url": "No website",
+  "startup": "application",
+  "boot": "auto",
+  "ports": {
+    "8080/tcp": 8080
+  },
+  "map": ["config:rw", "ssl"],
+  "options": {},
+  "schema": {},
+  "image": "repo/smart-home-hub-addon"
+}
