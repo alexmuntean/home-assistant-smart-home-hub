@@ -14,7 +14,8 @@
   "startup": "application",
   "boot": "auto",
   "ports": {
-    "8080/tcp": 8080
+    "8080/tcp": 8080,
+    "80/udp": 80
   },
   "map": ["config:rw", "ssl"],
   "options": {},
