@@ -18,6 +18,5 @@
   },
   "map": ["config:rw", "ssl"],
   "options": {},
-  "schema": {},
-  "image": "repo/smart-home-hub-addon"
+  "schema": {}
 }
