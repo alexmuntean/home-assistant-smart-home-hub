@@ -3,7 +3,13 @@
   "version": "1.0",
   "slug": "smart-home-hub",
   "description": "Custom plugin to control my rolls via broadlink",
-  "arch": ["amd64"],
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
   "url": "https://github.com/alexmuntean/home-assistant-smart-home-hub",
   "startup": "application",
   "boot": "auto",
