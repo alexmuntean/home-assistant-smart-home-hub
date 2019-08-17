@@ -10,4 +10,4 @@ RUN apk add --no-cache jq
 COPY smart-home-hub-1.0.jar /
 RUN chmod a+x /smart-home-hub-1.0.jar
 
-CMD [ "java", "-jar", "/smart-home-hub-1.0.jar" ]
+CMD [ "java", "-Xmx512m" ,"-jar", "/smart-home-hub-1.0.jar" ]
