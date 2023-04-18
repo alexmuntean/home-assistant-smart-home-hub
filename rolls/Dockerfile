@@ -4,7 +4,7 @@ FROM $BUILD_FROM
 ENV LANG C.UTF-8
 
 # Install requirements for add-on
-RUN apk add --no-cache jq
+#RUN apk add --no-cache jq
 
 # Copy data for add-on
 COPY smart-home-hub-1.0.jar /
