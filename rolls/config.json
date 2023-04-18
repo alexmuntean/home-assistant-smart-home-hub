@@ -1,6 +1,6 @@
 {
   "name": "Smart Home Hub Mqtt Rolls",
-  "version": "1.4",
+  "version": "1.5",
   "slug": "smart-home-hub",
   "description": "Custom plugin to control my rolls via broadlink",
   "arch": [
