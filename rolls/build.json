@@ -1,7 +1,8 @@
 {
     "build_from": {
       "armhf": "resin/raspberrypi3-alpine-openjdk",
-      "armv7": "resin/raspberrypi3-alpine-openjdk"
+      "armv7": "resin/raspberrypi3-alpine-openjdk",
+      "aarch64": "resin/raspberrypi3-alpine-openjdk"
     },
     "squash": false,
     "args": {
